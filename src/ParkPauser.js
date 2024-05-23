@@ -15,6 +15,7 @@ var PluginMetadata = {
     authors: "Spacek",
     type: "intransient",
     licence: "MIT",
+    minApiVersion: 89,
     targetApiVersion: 89,
     main: null // populated later
 };
@@ -68,14 +69,12 @@ function setButtonStates() {
 function buttonClicked() {
     context.sharedStorage.set("ParkPauser.loadState",loadState);
     context.sharedStorage.set("ParkPauser.saveState",saveState);
-    console.log("set load and save states",loadState, saveState)
     setButtonStates();
 }
 
 function getSavedSettings() {
     loadState = context.sharedStorage.get("ParkPauser.loadState",loadState);
     saveState = context.sharedStorage.get("ParkPauser.saveState",saveState);
-    console.log("got load and save states",loadState, saveState)
 }
 
 /* Create the UI */
