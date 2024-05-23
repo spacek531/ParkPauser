@@ -11,7 +11,7 @@ var Widgets;
 
 var PluginMetadata = {
     name: "ParkPauser by Spacek",
-    version: "0.1.0",
+    version: "0.1.1",
     authors: "Spacek",
     type: "intransient",
     licence: "MIT",
