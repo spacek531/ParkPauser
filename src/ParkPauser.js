@@ -11,12 +11,12 @@ var Widgets;
 
 var PluginMetadata = {
     name: "ParkPauser by Spacek",
-    version: "0.1.1",
+    version: "0.1.2",
     authors: "Spacek",
     type: "intransient",
     licence: "MIT",
-    minApiVersion: 89,
-    targetApiVersion: 89,
+    minApiVersion: 93,
+    targetApiVersion: 93,
     main: null // populated later
 };
 
