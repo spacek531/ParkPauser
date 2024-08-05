@@ -231,6 +231,7 @@ function openWindow() {
 function main() {
     getSavedSettings();
     createWidgets();
+    onParkLoad();
     context.subscribe("map.changed",onParkLoad)
     context.subscribe("map.save",onParkSave)
 
